@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+}
+.container__header-section {
+  background-image: url(/images/header-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  height: 20%;
+}
+
+.container__main-section {
+  background-color: blueviolet;
+  height: 80%;
+}
+
+.main-section__content {
+  display: grid;
+  grid-template-columns: repeat(3, 15rem);
+  grid-template-rows: repeat(2, 15rem);
+  background-color: aquamarine;
+  justify-content: space-around;
+  align-content: space-around;
+  grid-gap: 3rem;
+  height: 100%;
+}
+
+.box1 {
+  background-color: brown;
+}
+
+.box2 {
+  background-color: plum;
+}
+
+.box3 {
+  background-color: orangered;
+}
